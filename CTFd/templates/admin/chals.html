@@ -187,11 +187,11 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header text-center">
-                    <h3>Keys</h3>
+                    <h3>Flags</h3>
                 </div>
                 <div class="modal-body">
                     <form method="POST" action="{{ request.script_root }}/admin/keys" style="text-align:center">
-                        <a href="#" id="create-key" class="btn btn-primary" style="margin-bottom:15px;">New Key</a>
+                        <a href="#" id="create-key" class="btn btn-primary" style="margin-bottom:15px;">New Flag</a>
                         <input name='nonce' type='hidden' value="{{ nonce }}">
                         <input id="keys-chal" name='chal' type='hidden'>
                         <div id="current-keys" class="row"></div>
