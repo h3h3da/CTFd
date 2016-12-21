@@ -11,18 +11,18 @@
 
 <div class="row">
     <br>
-    <h1>Correct Key Submissions</h1>
+    <h1>Correct Flag Submissions</h1>
     <div id="confirm" class="modal fade" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header text-center">
-                    <h3>Delete Key</h3>
+                    <h3>Delete Flag</h3>
                 </div>
                 <div class="modal-body">
                     <form method="POST" action="">
                         <input id="nonce" type="hidden" name="nonce" value="{{ nonce }}">
                         <div class="small-6 small-centered text-center columns">
-                            <p>Are you sure you want to delete successful key submission for team: <strong id="confirm-team-name"></strong> in challenge: <strong id="confirm-chal-name"></strong>?</p>
+                            <p>Are you sure you want to delete successful flag submission for team: <strong id="confirm-team-name"></strong> in challenge: <strong id="confirm-chal-name"></strong>?</p>
                             <a onclick="$('#confirm').modal('hide')" class="btn btn-primary">No</a>
                             <button class="btn btn-danger" id="delete-solve" type="button">Yes</button>
                         </div>
@@ -40,7 +40,7 @@
                 </td>
                 <td class="text-center"><b>Date</b>
                 </td>
-                <td class="text-center"><b>Key Submitted</b>
+                <td class="text-center"><b>Flag Submitted</b>
                 </td>
                 <td class="text-center"><b>Delete</b>
                 </td>
