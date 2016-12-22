@@ -53,7 +53,7 @@ def setup():
             page = Pages('index', """<div class="container main-container">
     <img class="logo" src="{0}/static/original/img/logo.png" />
     <h3 class="text-center">
-        Welcome to a cool CTF framework written by <a href="https://github.com/ColdHeat">Kevin Chung</a> of <a href="https://github.com/isislab">@isislab</a>
+        Welcome to a QCTF organized by <a href="http://blog.rookiehacker.org">NewBee</a>
     </h3>
 
     <h4 class="text-center">
